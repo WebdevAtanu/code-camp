@@ -1,0 +1,110 @@
+100 Coding Challenges (Basic → Advanced)
+
+BASIC (1–30) – Build Foundations
+
+1. Print "Hello World" -- Basic console output
+2. Take input and print it -- Read and echo user input
+3. Swap two numbers -- Exchange values of two variables
+4. Check even or odd -- Determine parity of a number
+5. Find largest of 3 numbers -- Compare three values
+6. Check leap year -- Validate year divisibility rules
+7. Reverse a number -- Flip digits of an integer
+8. Check palindrome number -- Verify number reads same forwards/backwards
+9. Count digits in a number -- Calculate digit count
+10. Sum of digits -- Add all digits together
+11. Print multiplication table -- Display n times table
+12. Factorial of a number -- Compute n!
+13. Fibonacci series (n terms) -- Generate first n Fibonacci numbers
+14. Prime number check -- Test if number is prime
+15. Print all primes in range -- List primes between two numbers
+16. GCD of two numbers -- Find greatest common divisor
+17. LCM of two numbers -- Find least common multiple
+18. Armstrong number check -- Check narcissistic number property
+19. Sum of natural numbers -- Calculate 1+2+...+n
+20. Print pattern (stars triangle) -- Display triangular star pattern
+21. Reverse a string -- Flip character order
+22. Check palindrome string -- Verify string symmetry
+23. Count vowels in string -- Count a,e,i,o,u occurrences
+24. Find length of string (without inbuilt) -- Manual string length calculation
+25. Convert lowercase to uppercase -- Change case of letters
+26. Find ASCII value of character -- Get character's ASCII code
+27. Count words in a sentence -- Count space-separated words
+28. Find largest element in array -- Find maximum in array
+29. Sum of array elements -- Total all array values
+30. Reverse an array -- Flip array order
+
+## INTERMEDIATE (31–70) – Strengthen Logic
+
+31. Second largest in array -- Find second highest value
+32. Remove duplicates from array -- Eliminate repeated elements
+33. Sort array (bubble sort) -- Implement bubble sort algorithm
+34. Sort array (selection sort) -- Implement selection sort
+35. Binary search -- Search in sorted array efficiently
+36. Linear search -- Sequential array search
+37. Merge two arrays -- Combine two sorted arrays
+38. Find missing number in array -- Locate absent number in sequence
+39. Rotate array (left/right) -- Shift array elements
+40. Find frequency of elements -- Count occurrences of each value
+41. Find intersection of two arrays -- Common elements between arrays
+42. Find union of two arrays -- All unique elements from both
+43. Kadane’s Algorithm (max subarray sum) -- Maximum contiguous subarray sum
+44. Move zeros to end -- Shift zeros to array end
+45. Check anagram strings -- Verify strings have same characters
+46. Longest word in sentence -- Find longest word
+47. First non-repeating character -- Find unique first character
+48. Count character frequency -- Count each character's occurrences
+49. Remove whitespace from string -- Strip spaces
+50. Check substring -- Verify substring presence
+51. Find all substrings -- Generate all possible substrings
+52. Generate permutations of string -- All possible arrangements
+53. Balanced parentheses check -- Validate bracket matching
+54. Stack implementation (array) -- Array-based stack
+55. Queue implementation -- Array-based queue
+56. Linked list insertion -- Add node to linked list
+57. Linked list deletion -- Remove node from linked list
+58. Reverse linked list -- Flip linked list order
+59. Detect loop in linked list -- Check for cycles
+60. Find middle of linked list -- Locate center node
+61. Merge two sorted linked lists -- Combine sorted lists
+62. Implement hash map -- Basic hash table
+63. Count pairs with given sum -- Find pairs summing to target
+64. Two sum problem -- Find two numbers summing to target
+65. Three sum problem -- Find three numbers summing to zero
+66. Find duplicates in array -- Identify repeated elements
+67. Longest common prefix -- Common prefix of strings
+68. Longest substring without repeating -- Longest unique substring
+69. String compression -- Compress repeated characters
+70. Spiral matrix traversal -- Traverse matrix in spiral
+
+## ADVANCED (71–100) – Master Problem Solving
+
+71. Quick sort -- Implement quicksort algorithm
+72. Merge sort -- Implement merge sort
+73. Heap sort -- Implement heap sort
+74. Implement min heap -- Minimum heap data structure
+75. Implement max heap -- Maximum heap data structure
+76. Dijkstra’s algorithm -- Shortest path algorithm
+77. BFS (Breadth First Search) -- Graph breadth-first traversal
+78. DFS (Depth First Search) -- Graph depth-first traversal
+79. Detect cycle in graph -- Check for graph cycles
+80. Topological sort -- Order tasks with dependencies
+81. Minimum spanning tree (Prim/Kruskal) -- MST algorithms
+82. Trie implementation -- Prefix tree data structure
+83. Word search in grid -- Find words in 2D grid
+84. N-Queens problem -- Place N queens safely
+85. Sudoku solver -- Solve Sudoku puzzle
+86. Rat in a maze -- Maze pathfinding
+87. Knight’s tour problem -- Chess knight tour
+88. Dynamic programming Fibonacci -- DP Fibonacci
+89. 0/1 Knapsack problem -- Knapsack optimization
+90. Longest increasing subsequence -- LIS problem
+91. Longest common subsequence -- LCS problem
+92. Edit distance problem -- String edit distance
+93. Matrix chain multiplication -- Optimal matrix multiplication
+94. Coin change problem -- Minimum coins for amount
+95. Partition equal subset sum -- Subset sum partition
+96. Sliding window maximum -- Max in sliding window
+97. LRU cache implementation -- Least recently used cache
+98. Design URL shortener -- URL shortening system
+99. Design rate limiter -- Request rate limiting
+100. Build mini search engine (index + search) -- Simple search engine
