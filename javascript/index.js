@@ -1,10 +1,3 @@
-/************************************************************
- * JAVASCRIPT COMPLETE GUIDE (BASIC → ADVANCED)
- * Author: Learning File
- * Description: All core JS concepts in one file with comments
- ************************************************************/
-
-
 /* =========================
    1. VARIABLES & DATA TYPES
 ========================= */
@@ -219,7 +212,7 @@ let myPromise = new Promise((resolve, reject) => {
 });
 
 myPromise.then(res => console.log(res))
-         .catch(err => console.log(err));
+    .catch(err => console.log(err));
 
 // Async / Await
 async function getData() {

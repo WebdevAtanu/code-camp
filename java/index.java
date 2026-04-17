@@ -1,8 +1,3 @@
-/*
- * JAVA FULL GUIDE (BASIC → ADVANCED)
- * Author: ChatGPT
- */
-
 import java.io.*;
 import java.util.*;
 import java.util.stream.*;
@@ -10,7 +5,7 @@ import java.util.stream.*;
 // =========================================================
 // MAIN CLASS
 // =========================================================
-public class JavaFullGuide {
+public class index {
 
     // =====================================================
     // 1. MAIN METHOD (ENTRY POINT)

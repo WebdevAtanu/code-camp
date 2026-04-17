@@ -504,7 +504,7 @@ class SpanDemo
 }
 #endregion
 
-class Program
+class Index
 {
     static async Task Main()
     {

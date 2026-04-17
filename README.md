@@ -18,5 +18,5 @@ Each language folder contains:
 - **index file** (e.g., `index.py`, `index.cpp`, `index.java`, `index.js`):
   - A full guide from basic to advanced concepts
   - Well-commented code for quick reference
-- **Other files**: Practice problems, algorithms, and implementations
+- **problems folder**: Practice problems, algorithms, and implementations
 ---
