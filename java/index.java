@@ -1,6 +1,10 @@
-import java.io.*;
-import java.util.*;
-import java.util.stream.*;
+import java.io.*; // input-output framework 
+import java.util.*; // collection framework (sets, lists, maps, queues, stacks) 
+import java.util.stream.*; // stream processing framework 
+import java.lang.*; // language framework 
+import java.math.*; // math framework
+import java.time.*; // date and time framework
+
 
 // =========================================================
 // MAIN CLASS
