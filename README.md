@@ -10,6 +10,8 @@ This repository is designed as a comprehensive resource for practicing and refer
 - **python/**: Python practice problems and reference code
 - **javascript/**: JavaScript practice problems and reference code
 - **php/**: PHP practice problems and reference code
+- **go/**: GO practice problems and reference code
+- **typescript/**: Typescript practice problems and reference code
 - **problems.txt**: A curated list of 100 coding challenges (from basic to advanced) to solve in any language
 
 ## Folder Details
