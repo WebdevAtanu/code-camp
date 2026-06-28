@@ -1,20 +1,11 @@
 <?php
-/************************************************************
- * PHP COMPLETE GUIDE (BASIC TO ADVANCED) - SINGLE FILE
- * Author: Example Learning File
- ************************************************************/
-
 echo "================ BASIC PHP =================\n";
 
-/* ---------------------------
-   1. BASIC OUTPUT
----------------------------- */
+/* --------------------------- 1. BASIC OUTPUT ---------------------------- */
 echo "Hello World\n";
 print "This is print statement\n";
 
-/* ---------------------------
-   2. VARIABLES & DATA TYPES
----------------------------- */
+/* --------------------------- 2. VARIABLES & DATA TYPES ---------------------------- */
 $name = "Atanu";     // string
 $age = 26;           // integer
 $price = 99.99;      // float
@@ -22,15 +13,11 @@ $isActive = true;    // boolean
 
 echo $name . " is " . $age . " years old\n";
 
-/* ---------------------------
-   3. CONSTANTS
----------------------------- */
+/* --------------------------- 3. CONSTANTS ---------------------------- */
 define("SITE_NAME", "My PHP App");
 echo SITE_NAME . "\n";
 
-/* ---------------------------
-   4. OPERATORS
----------------------------- */
+/* --------------------------- 4. OPERATORS ---------------------------- */
 $a = 10;
 $b = 5;
 
@@ -39,18 +26,14 @@ echo "Difference: " . ($a - $b) . "\n";
 echo "Multiply: " . ($a * $b) . "\n";
 echo "Division: " . ($a / $b) . "\n";
 
-/* ---------------------------
-   5. CONDITIONAL STATEMENTS
----------------------------- */
+/* --------------------------- 5. CONDITIONAL STATEMENTS ---------------------------- */
 if ($age >= 18) {
     echo "Adult\n";
 } else {
     echo "Minor\n";
 }
 
-/* ---------------------------
-   6. SWITCH CASE
----------------------------- */
+/* --------------------------- 6. SWITCH CASE ---------------------------- */
 $day = "Monday";
 
 switch ($day) {
@@ -64,9 +47,7 @@ switch ($day) {
         echo "Normal day\n";
 }
 
-/* ---------------------------
-   7. LOOPS
----------------------------- */
+/* --------------------------- 7. LOOPS ---------------------------- */
 
 // for loop
 for ($i = 1; $i <= 5; $i++) {
@@ -86,18 +67,14 @@ foreach ($colors as $color) {
     echo "Color: $color\n";
 }
 
-/* ---------------------------
-   8. FUNCTIONS
----------------------------- */
+/* --------------------------- 8. FUNCTIONS ---------------------------- */
 function greet($user) {
     return "Hello " . $user . "\n";
 }
 
 echo greet("Atanu");
 
-/* ---------------------------
-   9. ARRAYS
----------------------------- */
+/* --------------------------- 9. ARRAYS ---------------------------- */
 
 // Indexed array
 $fruits = ["Apple", "Banana", "Mango"];
@@ -112,21 +89,13 @@ $user = [
 echo $fruits[0] . "\n";
 echo $user["name"] . "\n";
 
-/* ---------------------------
-   10. SUPERGLOBAL VARIABLES
----------------------------- */
+/* --------------------------- 10. SUPERGLOBAL VARIABLES ---------------------------- */
 // Example (works in web server)
 // echo $_SERVER['PHP_SELF'];
 
-/* =========================================================
-   ADVANCED PHP
-========================================================= */
-
 echo "\n================ ADVANCED PHP =================\n";
 
-/* ---------------------------
-   11. OOP (CLASSES & OBJECTS)
----------------------------- */
+/* --------------------------- 11. OOP (CLASSES & OBJECTS) ---------------------------- */
 class Car {
     public $brand;
     public $model;
@@ -146,9 +115,7 @@ class Car {
 $car1 = new Car("Toyota", "Corolla");
 echo $car1->getInfo();
 
-/* ---------------------------
-   12. INHERITANCE
----------------------------- */
+/* --------------------------- 12. INHERITANCE ---------------------------- */
 class Vehicle {
     public $type;
 
@@ -171,34 +138,26 @@ $bike = new Bike("Two Wheeler");
 echo $bike->showType();
 echo $bike->message();
 
-/* ---------------------------
-   13. FILE HANDLING
----------------------------- */
-$file = "test.txt";
+/* --------------------------- 13. FILE HANDLING ---------------------------- */
+// $file = "test.txt";
 
-// Write file
-file_put_contents($file, "Hello File Handling in PHP\n");
+// // Write file
+// file_put_contents($file, "Hello File Handling in PHP\n");
 
-// Read file
-$content = file_get_contents($file);
-echo $content;
+// // Read file
+// $content = file_get_contents($file);
+// echo $content;
 
-/* ---------------------------
-   14. SESSIONS (WEB FEATURE)
----------------------------- */
+/* --------------------------- 14. SESSIONS (WEB FEATURE) ---------------------------- */
 // session_start();
 // $_SESSION["user"] = "Atanu";
 // echo $_SESSION["user"];
 
-/* ---------------------------
-   15. COOKIES
----------------------------- */
+/* --------------------------- 15. COOKIES ---------------------------- */
 // setcookie("username", "Atanu", time() + 3600);
 // echo $_COOKIE["username"];
 
-/* ---------------------------
-   16. FORM HANDLING (POST/GET)
-/*
+/* --------------------------- 16. FORM HANDLING (POST/GET)---------------------------- /*
    Example HTML:
    <form method="POST">
        <input name="username">
@@ -210,9 +169,7 @@ echo $content;
 //     echo $username;
 // }
 
-/* ---------------------------
-   17. DATABASE (PDO - BEST PRACTICE)
----------------------------- */
+/* --------------------------- 17. DATABASE (PDO - BEST PRACTICE) ---------------------------- */
 try {
     $pdo = new PDO("mysql:host=localhost;dbname=testdb", "root", "");
 
@@ -230,9 +187,7 @@ try {
     echo "Connection failed: " . $e->getMessage();
 }
 
-/* ---------------------------
-   18. SECURITY BASICS
----------------------------- */
+/* --------------------------- 18. SECURITY BASICS ---------------------------- */
 
 // Prevent XSS
 $input = "<script>alert('hack')</script>";
@@ -244,9 +199,7 @@ $password = "123456";
 $hashed = password_hash($password, PASSWORD_BCRYPT);
 echo "Hashed Password: " . $hashed . "\n";
 
-/* ---------------------------
-   19. JSON HANDLING
----------------------------- */
+/* --------------------------- 19. JSON HANDLING ---------------------------- */
 $data = ["name" => "Atanu", "role" => "Developer"];
 
 $json = json_encode($data);
@@ -255,9 +208,7 @@ echo "JSON: " . $json . "\n";
 $decoded = json_decode($json, true);
 print_r($decoded);
 
-/* ---------------------------
-   20. ERROR HANDLING
----------------------------- */
+/* --------------------------- 20. ERROR HANDLING ---------------------------- */
 function divide($a, $b) {
     if ($b == 0) {
         throw new Exception("Division by zero error");
@@ -270,9 +221,3 @@ try {
 } catch (Exception $e) {
     echo "Error: " . $e->getMessage();
 }
-
-/* ---------------------------
-   END
----------------------------- */
-echo "\nPHP FULL GUIDE COMPLETED\n";
-?>
