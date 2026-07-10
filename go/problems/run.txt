@@ -1,0 +1,2 @@
+'go mod init problems' --This will create a mod file
+'go run .' -- This will run the files
